@@ -1,0 +1,3 @@
+add_executable(vector_add_hsa vector_add_hsa.cpp)
+
+target_link_libraries(vector_add_hsa PRIVATE hsa_samples)

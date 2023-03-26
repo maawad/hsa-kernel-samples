@@ -1,0 +1,3 @@
+#!/bin/bash
+image_name="hsa-samples"
+docker build -t $image_name -f docker/Dockerfile .
